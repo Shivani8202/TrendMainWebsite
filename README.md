@@ -1,1 +1,1 @@
-# TrendMainWebsite
+# TrendsMainWebsite
