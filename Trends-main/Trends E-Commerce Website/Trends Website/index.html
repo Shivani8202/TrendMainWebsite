@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TREND'S SHOPPING (HOME)</title>
+
+  <link rel="icon" type="image/x-icon" href="images\favicon.png">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+ <!-- ********* HOME HEADER *********  -->
+
+  <div class="header">
+    <div class="container">
+
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" height="100px" width="200px"></a>
+        </div>
+
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="account.html">ACCOUNT</a></li>
+          </ul>
+        </nav>
+
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" id="cart_img"></a>
+        <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+
+          <h1 class="heading ">GIVE YOUR WORKOUT<br>A NEW STYLE!</h1><br>
+          <p>Success Isn't Always About Greatness. <br><br>It’s About Consistency & Hard Work. <br><br>Be Stronger Than Your Excuses.</p>
+          <br>
+          <a href="products.html" class="btn">Explore Now &#8594;</a>
+
+        </div>
+
+        <div class="col-2">
+          <img src="images/image1.png" id="col_img">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- ********* FEATURED CATEGORIES *********  -->
+
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/category-1.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/category-2.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/category-3.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ********* FEATURED PRODUCTS *********  -->
+
+  <div class="small-container">
+    <h2 class="title">FEATURED PRODUCTS</h2>
+    <div class="row">
+
+      <div class="col-4">
+        <a href="product-details.html"><img src="images/product-1.jpg"></a>
+        <h4><a href="product-details.html">Red Printed T-Shirt</a></h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs 550/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-2.jpg">
+        <h4>HRX Sports Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs 725/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-3.jpg">
+        <h4>HRX Gray Trackpants</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs 1,225/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-4.jpg">
+        <h4>Blue Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs 600/-</p>
+      </div>
+    </div>
+
+    <h2 class="title">LATEST PRODUCTS</h2>
+    <div class="row">
+
+      <div class="col-4">
+        <img src="images/product-5.jpg">
+        <h4>Puma Gray Sports Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs 7,800/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-6.jpg">
+        <h4>Black HRX Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs 2,200/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-7.jpg">
+        <h4>HRX Set of 3 Socks</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs 500/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-8.jpg">
+        <h4>Gray Nike Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs 5,500/-</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-9.jpg">
+        <h4>Black Sportx Watch</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs 4,800/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-10.jpg">
+        <h4>Black Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      <p>Rs 1,100/-</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-11.jpg">
+        <h4>Black Fossil Watch</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p><p>Rs 12,000/-</p></p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-12.jpg">
+        <h4>HRX Black Trackpants</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs 1,150/-</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ********* OFFER BANNER *********  -->
+
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/exclusive.png" class="offer-img">
+        </div>
+        <div class="col-2">
+          <p>Exclusively Available on TRENDS</p>
+          <h1>MI Smart Band 5</h1>
+          <small>The Mi Smart Band 5 features +20.0% larger display (than Mi Band 4).<br> AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.
+            <br><br>COMES WITH ALL-NEW MAGNETIC CHARGING. </small>
+          <br>
+          <a href="https://www.mi.com/in/mi-smart-band-5/" class="btn">Buy Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ********* TESTIMONIAL'S *********  -->
+
+  <div class="testimonial">
+
+    <div class="small-container">
+      <div class="row">
+
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>It provides all goods we needed of best quality . It's own branded products are cheap and best. The website is very smooth and has a good user experience</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/user-1.png">
+          <h3>Angela Parker</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>I have been using Trends for quite some time now. Easy & neatly organized sorting, filtering & other options for viewing preferences.The prices are reasonable most of the time.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/user-2.png">
+          <h3>David Smith</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Trends is one of the best shopping site in India. So far I had good experience with purchases via Trends Fast delivery, easy exchange , well informed on all your activity with Trends.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/user-3.png">
+          <h3>Elena Joe</h3>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ********* BRANDS *********  -->
+
+  <div class="brands">
+    <div class="small-container">
+
+      <div class="row">
+
+        <div class="col-5">
+          <img src="images/logo-nike.png">
+        </div>
+
+        <div class="col-5">
+          <img src="images/logo-paypal.png">
+        </div>
+
+        <div class="col-5">
+          <img src="images/logo-puma.png">
+        </div>
+
+        <div class="col-5">
+          <img src="images/logo-fossil.png">
+        </div>
+
+        <div class="col-5">
+          <img src="images/logo-mastercard.png">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ********* FOOTER*********  -->
+
+  <div class="footer">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="footer-col1">
+          <h3>DOWNLOAD OUR APP :</h3>
+          <p>For Android & iOS Devices.</p>
+
+          <div class="app-logo">
+            <img src="images/play-store.png">
+            <img src="images/app-store.png">
+          </div>
+
+        </div>
+
+        <div class="footer-col2">
+
+          <img src="images/logo.png">
+
+        </div>
+
+        <div class="footer-col3">
+         <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+        </div>
+
+      </div>
+
+      <hr>
+      <p class="copyright">&#169; 2022 ALL RIGHTS RESERVED </p>
+
+    </div>
+  </div>
+
+ <script src="js/script.js"></script>
+
+</body>
+
+</html>

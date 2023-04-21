@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL PRODUCTS</title>
+
+    <link rel="icon" type="image/x-icon" href="images\favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+       <div class="container">
+
+           <div class="navbar">
+             <div class="logo">
+               <a href="index.html"><img src="images/logo.png" height="100px" width="200px"></a>
+             </div>
+
+             <nav>
+               <ul id="MenuItems">
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="products.html">PRODUCTS</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+                 <li><a href="account.html">ACCOUNT</a></li>
+               </ul>
+             </nav>
+
+             <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" id="cart_img"></a>
+             <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+
+           </div>
+
+       </div>
+
+
+<!-- Title ---->
+
+<div class="small-container">
+   <div class="row row-2">
+
+       <h2>ALL PRODUCTS :</h2>
+       <select>
+           <option>Filter</option>
+           <option>Sort By Price</option>
+           <option>Sort By Popularity</option>
+           <option>Sort By Rating</option>
+           <option>Sort By Sale</option>
+       </select>
+
+   </div>
+
+           <div class="row">
+               <div class="col-4">
+
+                   <a href="product-details.html"><img src="images/product-1.jpg"></a>
+                   <h4><a href="product-details.html">Red Printed T-Shirt</a></h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Rs 550/-</p>
+               </div>
+
+               <div class="col-4">
+                   <img src="images/product-2.jpg">
+                   <h4>HRX Sports Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Rs 725/-</p>
+               </div>
+
+               <div class="col-4">
+                   <img src="images/product-3.jpg">
+                   <h4>HRX Gray Trackpants</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Rs 450/-</p>
+               </div>
+
+                <div class="col-4">
+                   <img src="images/pic1.jpg">
+                   <h4>Blue Printed T-Shirt</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Rs 535/-</p>
+               </div>
+
+           </div>
+
+             <div class="row">
+               <div class="col-4">
+                   <img src="images/shoes.jpg">
+                   <h4>Puma Gray Sports Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Rs 950/-</p>
+               </div>
+
+               <div class="col-4">
+                   <img src="images/bs.jpg">
+                   <h4>Black Printed T-Shirt</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Rs 840/-</p>
+               </div>
+
+               <div class="col-4">
+                   <img src="images/socks.jpg">
+                   <h4>HRX Set of 3 Socks</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Rs 300/-</p>
+               </div>
+
+                <div class="col-4">
+                   <img src="images/fwatch.jpg">
+                   <h4>Black Fossil Watch</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Rs 2200/-</p>
+               </div>
+
+           </div>
+
+           <div class="row">
+               <div class="col-4">
+                   <img src="images/swatch.jpg">
+                   <h4>Black Sportx Watch</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Rs 1350/-</p>
+               </div>
+
+               <div class="col-4">
+                   <img src="images/hrxshoes.jpg">
+                   <h4>Black HRX Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Rs 1500/-</p>
+               </div>
+
+               <div class="col-4">
+                   <img src="images/greynike.jpg">
+                   <h4>Gray Nike Shoes</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Rs 1750/-</p>
+               </div>
+
+                <div class="col-4">
+                   <img src="images/hrxtrack.jpg">
+                   <h4>HRX Black Trackpants</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Rs 750/-</p>
+               </div>
+
+           </div>
+
+           <div class="page-btn">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+              <span>&#8594;</span>
+          </div>
+</div>
+
+<!--Footer---->
+
+<div class="footer">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="footer-col1">
+        <h3>DOWNLOAD OUR APP :</h3>
+        <p>For Android & iOS Devices.</p>
+
+        <div class="app-logo">
+          <img src="images/play-store.png">
+          <img src="images/app-store.png">
+        </div>
+
+      </div>
+
+      <div class="footer-col2">
+
+        <img src="images/logo.png">
+
+      </div>
+
+      <div class="footer-col3">
+       <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+      </div>
+
+    </div>
+
+    <hr>
+    <p class="copyright">&#169; 2022 ALL RIGHTS RESERVED </p>
+
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
